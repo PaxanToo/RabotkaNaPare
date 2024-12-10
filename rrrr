@@ -72,7 +72,6 @@ class Ui_Ezenedelnik(object):
         self.show_all_notes_button.setText("Все заметки")
         self.show_all_notes_button.setStyleSheet("QPushButton {border: 2px solid #B0B0B0; border-radius: 12px; background-color: #E8E8E8; padding: 10px; font-size: 14px;} QPushButton:hover {background-color: #F0F0F0;}")
 
-> Тимоха👻:
 # Список заметок с оформлением
         self.ListZametok = QtWidgets.QListWidget(self.centralwidget)
         self.ListZametok.setGeometry(QtCore.QRect(40, 65, 281, 421))
@@ -128,7 +127,6 @@ class Ui_Ezenedelnik(object):
         self.filter_important_button.setText("Показать Важное")
         self.filter_important_button.setStyleSheet("QPushButton {border: 2px solid #B0B0B0; border-radius: 12px; background-color: #E8E8E8; padding: 10px; font-size: 14px;} QPushButton:hover {background-color: #F0F0F0;}")
 
-> Тимоха👻:
 self.filter_non_urgent_button = QtWidgets.QPushButton(self.centralwidget)
         self.filter_non_urgent_button.setGeometry(QtCore.QRect(20, 550, 160, 40))
         self.filter_non_urgent_button.setText("Показать Не срочное")
@@ -199,7 +197,6 @@ self.filter_non_urgent_button = QtWidgets.QPushButton(self.centralwidget)
         else:
             print("Неверный формат заметки:", note)
 
-> Тимоха👻:
 # Метод добавления заметки с категорией
     def edit_note(self, item):
         note = item.data(QtCore.Qt.UserRole)
